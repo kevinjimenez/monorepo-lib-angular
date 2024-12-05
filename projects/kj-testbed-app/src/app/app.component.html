@@ -1,0 +1,8 @@
+<h1 class="text-3xl font-bold underline">Hello world!</h1>
+<p>Hola de nuevo</p>
+<lib-kj-side-menu
+  [isAuthenticated]="isAuthenticated()"
+  [titleColor]="TitleColor.red"
+  (onSignIn)="isAuthenticated.set(true)"
+  (onSignOut)="isAuthenticated.set(false)"
+/>

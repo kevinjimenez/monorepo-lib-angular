@@ -1,0 +1,30 @@
+{
+  "name": "kj-side-menu",
+  "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjdev/kj-side-menu.git"
+  },
+  "keywords": [
+    "angular",
+    "side-menu",
+    "angular-side-menu"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "kjdev",
+    "email": "t0V6o@example.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kjdev/kj-side-menu/issues"
+  },
+  "homepage": "https://github.com/kjdev/kj-side-menu",
+  "peerDependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
